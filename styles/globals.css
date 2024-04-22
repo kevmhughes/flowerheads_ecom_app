@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.flower-icon {
+  color: pink;
+}
+
 .split-screen-container {
   display: flex;
   gap: 30px;
@@ -35,6 +39,7 @@ a {
   font-size: 13px;
   color: #6b7c8b;
   padding-bottom: 10px;
+  font-weight: 300;
 }
 
 .pointer {
@@ -93,8 +98,9 @@ a {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 15s linear infinite;
-  width: 180%;
+  animation: marquee 30s linear infinite;
+  animation-direction: alternate-reverse;
+  /* width: 180%; */
 }
 .track:hover {
   animation-play-state: paused;
@@ -120,6 +126,7 @@ a {
   padding-left: 25px;
   border-style: ridge;
   z-index: 2;
+  border: 1px solid rgb(0, 0, 0, 0.1);
 }
 
 .input-search-bar:focus {
@@ -204,19 +211,21 @@ span.text-red {
   transform: scale(1, 1);
   transition: transform 0.5s ease;
   color: #324d67;
+  width: 250px;
+  height: 250px;
 }
 .product-card:hover {
   transform: scale(1.1, 1.1);
 }
 .product-image {
   border-radius: 5px;
-  background-color:#fbf0f3a6;
+  background-color: #fbf0f3a6;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 
 .product-name {
-  font-weight: 500;
+  font-weight: 100;
 }
 .product-price {
   font-weight: 800;
@@ -675,7 +684,7 @@ span.text-red {
 }
 .maylike-products-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 15px;
   margin-top: 20px;
 }
@@ -792,9 +801,10 @@ span.text-red {
     appearance: none;
     width: 128px;
     cursor: pointer;
-    width: 300px;
+    width: 100%;
     margin-bottom: 5px;
     border: 1px solid rgb(0, 0, 0, 0.1);
+    font-weight: 100;
   }
   .side-container {
     display: none;
@@ -844,7 +854,7 @@ span.text-red {
   .mobile-view-collection-and-sort {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     justify-content: space-between;
     margin: auto;
     margin-top: 20px;

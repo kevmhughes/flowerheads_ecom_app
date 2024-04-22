@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <p className="logo">
           <Link href="/">FLOWER HEADS</Link>
-          <Link href="/"><IoFlower /></Link>
+          <Link href="/"><IoFlower className="flower-icon"/></Link>
           
         </p>
         <NavbarCollectionList />
