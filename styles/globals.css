@@ -45,13 +45,13 @@ a {
 .pointer {
   cursor: pointer;
   color: #324d67;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .pointer-darker {
   cursor: pointer;
   color: #324d67;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .main-container {
@@ -825,6 +825,7 @@ span.text-red {
     flex-direction: column;
     gap: 10px;
     font-size: 18px;
+    font-weight: 200;
   }
   .empty-cart {
     margin: 0 40px 0 20px;
