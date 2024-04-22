@@ -211,8 +211,6 @@ span.text-red {
   transform: scale(1, 1);
   transition: transform 0.5s ease;
   color: #324d67;
-  width: 250px;
-  height: 250px;
 }
 .product-card:hover {
   transform: scale(1.1, 1.1);
@@ -679,7 +677,6 @@ span.text-red {
   text-align: center;
   margin: 50px;
   color: #324d67;
-
   font-size: 28px;
 }
 .maylike-products-container {
@@ -809,7 +806,6 @@ span.text-red {
   .side-container {
     display: none;
   }
-
   .side-container-mobile {
     display: inline;
   }
@@ -866,7 +862,6 @@ span.text-red {
   .navbar-container {
     display: none;
   }
-
   .input-search-symbol {
     top: 60px;
     left: 29px;
@@ -980,7 +975,6 @@ span.text-red {
     padding-top: 20px;
     justify-content: space-between;
   }
-
   .item-desc .flex {
     width: 200px;
   }
@@ -1009,6 +1003,9 @@ span.text-red {
   .track {
     animation: marquee 10s linear infinite;
     width: 550%;
+  }
+  .maylike-products-wrapper {
+    display: none;
   }
   .success-wrapper,
   .cancel-wrapper {
