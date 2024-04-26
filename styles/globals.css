@@ -528,7 +528,7 @@ span.text-red {
   margin: 40px;
   margin-top: 60px;
   color: #324d67;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .product-detail-image {
@@ -600,6 +600,13 @@ span.text-red {
   display: flex;
   gap: 30px;
 }
+
+.product-detail-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
 .buttons .add-to-cart {
   padding: 10px 20px;
   border: 1px solid #f02d34;

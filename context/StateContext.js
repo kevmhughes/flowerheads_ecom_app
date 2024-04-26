@@ -18,7 +18,7 @@ export const StateContext = ({ children }) => {
   let foundProduct;
   let index;
 
-  //add a product to the shoppibg trolley
+  //add a product to the shopping trolley
   const onAdd = (product, quantity) => {
     // check to see if the product is already in the shopping trolley
     const checkProductInCart = cartItems.find(

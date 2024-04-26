@@ -44,7 +44,6 @@ const ProductDetails = ({ product, products }) => {
                   i === index ? "small-image selected-image" : "small-image"
                 }
                 onMouseEnter={() => setIndex(i)}
-                onMouseLeave={() => setIndex(i)}
               />
             ))}
           </div>
@@ -52,7 +51,7 @@ const ProductDetails = ({ product, products }) => {
         <div className="product-detail-desc">
           <h1>{name}</h1>
           <h4>Description:</h4>
-          <p>{details}</p>
+          <p className="product-detail-box">{details}</p>
           <p className="price">£{price}</p>
           <div className="custom-select">
             <h3>Size:</h3>
@@ -103,7 +102,8 @@ const ProductDetails = ({ product, products }) => {
       <div className="maylike-products-wrapper">
         <h2>You may also like</h2>
         <div className="marquee">
-          <div className="maylike-products-container track">
+          <div className="maylike-products-container track"
+          >
             {products.map((item) => (
               <Product key={item._id} product={item} />
             ))}

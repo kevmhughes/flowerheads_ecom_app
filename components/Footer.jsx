@@ -4,7 +4,7 @@ import {
   PiInstagramLogoLight,
   PiFacebookLogoLight,
   PiTiktokLogoLight,
-  PiWhatsappLogoLight,
+  //PiWhatsappLogoLight,
 } from "react-icons/pi";
 import Link from "next/link";
 
@@ -29,11 +29,11 @@ const Footer = () => {
           </a>
         </Link>
 
-        <Link href="">
+        {/* <Link href="">
           <a target="_blank">
             <PiWhatsappLogoLight />
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
