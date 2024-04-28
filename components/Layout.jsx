@@ -11,9 +11,9 @@ const Layout = ({ children }) => {
   const { setCartItems, setTotalQuantities, setTotalPrice } = useStateContext();
   useEffect(() => {
     // get cart items
-    const parsed = localStorage.getItem("cartItems");
-    const sendThis = JSON.parse(parsed);
-    !sendThis ? setCartItems([]) : setCartItems(sendThis);
+    const parsedCartItems = localStorage.getItem("cartItems");
+    const localStorageContents = JSON.parse(parsedCartItems);
+    !localStorageContents ? setCartItems([]) : setCartItems(localStorageContents);
     // get quantity of items
     const totalQuantity = localStorage.getItem("total");
     totalQuantity && setTotalQuantities(parseInt(totalQuantity));
