@@ -5,7 +5,7 @@
 Use the app [here](https://flowerheads-ecom-app.vercel.app)
 
 # Description
-Flower Heads is a fully responsive and modern full stack app with all the functionality of an e-commerce app. The user can browse the products, add and remove products to and from the cart, review and modify the cart, and finally pay securely using the fully integrated Stripe payment processing interface. 
+Flower Heads is a fully responsive and modern full stack app with all the functionality of an e-commerce app. The user can browse and filter through the products, add and remove products to and from the cart, review and modify the cart, and finally pay securely using the fully integrated Stripe payment processing interface. 
 
  
 # Take a Look at the App
