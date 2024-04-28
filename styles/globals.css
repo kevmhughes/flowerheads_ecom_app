@@ -1005,6 +1005,7 @@ span.text-red {
   }
   .cart-bottom {
     padding: 30px;
+    background-color: white;
   }
 
   .total h3 {
