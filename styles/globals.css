@@ -973,6 +973,10 @@ span.text-red {
   .product {
     padding: 20px 5px;
   }
+  .total {
+    width: 300px;
+    margin: auto;
+  }
   .product .cart-product-image {
     width: 25%;
     height: 25%;
