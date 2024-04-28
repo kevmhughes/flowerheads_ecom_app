@@ -533,7 +533,7 @@ span.text-red {
 
 .product-detail-image {
   border-radius: 5px;
-  background-color: white;
+  background-color: #896767;
   height: 450px;
   width: 450px;
   object-fit: scale-down;
@@ -871,6 +871,9 @@ span.text-red {
   .product-image {
     width: 100%;
     height: 100%;
+  }
+  .product-details-image {
+    background-color: white;
   }
   .navbar-container {
     display: none;
