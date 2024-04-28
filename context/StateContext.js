@@ -126,7 +126,7 @@ export const StateContext = ({ children }) => {
       }
     }
   };
-/* 
+
   // set local storage
   useEffect(() => {
     let string = JSON.stringify(cartItems);
@@ -134,7 +134,7 @@ export const StateContext = ({ children }) => {
     localStorage.setItem("total", totalQuantities);
     localStorage.setItem("price", totalPrice);
     setQty(1);
-  }, [cartItems]); */
+  }, [cartItems]);
 
   // remove a product from the cart
   const onRemove = (product) => {
