@@ -820,6 +820,7 @@ span.text-red {
   }
   .main-container {
     margin-top: 25px;
+    height: 100%;
   }
   .collections {
     display: none;
