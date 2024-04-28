@@ -547,6 +547,7 @@ span.text-red {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  justify-content: center;
 }
 .small-image {
   border-radius: 8px;
@@ -555,7 +556,6 @@ span.text-red {
   height: 70px;
   cursor: pointer;
 }
-
 .selected-image {
   background-color: #6f6666;
   border: 1px solid #324d67;
@@ -567,7 +567,6 @@ span.text-red {
   gap: 5px;
   align-items: center;
 }
-
 .product-detail-desc h4 {
   margin-top: 10px;
 }
@@ -606,7 +605,6 @@ span.text-red {
   flex-wrap: wrap;
   width: 400px;
 }
-
 .buttons .add-to-cart {
   padding: 10px 20px;
   border: 1px solid #f02d34;
@@ -625,7 +623,6 @@ span.text-red {
 }
 .buttons .buy-now {
   width: 200px;
-
   padding: 10px 20px;
   background-color: #f02d34;
   color: white;
@@ -676,7 +673,6 @@ span.text-red {
 .quantity-desc .plus {
   color: rgb(49, 168, 49);
 }
-
 .maylike-products-wrapper {
   margin-top: 120px;
 }
@@ -714,7 +710,6 @@ span.text-red {
   align-items: center;
   flex-direction: column;
 }
-
 .success .icon {
   color: green;
   font-size: 40px;
@@ -749,7 +744,6 @@ span.text-red {
 .product-max-qty {
   margin-top: 10px;
 }
-
 .mobile-view-navbar-container {
   display: none;
 }
@@ -764,10 +758,15 @@ span.text-red {
 .collections-mobile-view {
   display: none;
 }
-
 @media screen and (min-width: 800px) {
   .input-search-bar-container {
     display: none;
+  }
+}
+
+@media screen and (max-device-width: 1024px) { 
+  .hero-banner-container {
+    font-size: 60%;
   }
 }
 
@@ -786,6 +785,9 @@ span.text-red {
   }
   .products-container-main {
     margin-top: 55px;
+  }
+  .product-card:hover {
+    transform: none
   }
   .collections-mobile-view-wrapper {
     position: relative;
