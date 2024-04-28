@@ -528,7 +528,7 @@ span.text-red {
   margin: 40px;
   margin-top: 60px;
   color: #324d67;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .product-detail-image {
@@ -788,6 +788,9 @@ span.text-red {
   }
   .product-card:hover {
     transform: none
+  }
+  .product-detail-image {
+    background-color: white;
   }
   .collections-mobile-view-wrapper {
     position: relative;
