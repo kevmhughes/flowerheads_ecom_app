@@ -988,6 +988,9 @@ span.text-red {
   .buttons .buy-now {
     width: 150px;
   }
+  .product-detail-box{
+    padding-right: 20px;
+  }
   .product-detail-container {
     margin: 20px;
     padding-top: 20px;
