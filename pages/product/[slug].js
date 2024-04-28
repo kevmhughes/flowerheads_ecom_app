@@ -145,7 +145,10 @@ export const getStaticProps = async ({ params: { slug } }) => {
 
   return {
     props: { product, products },
-  };
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 60 seconds
+    revalidate: 60  };
 };
 
 export default ProductDetails;
