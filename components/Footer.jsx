@@ -14,17 +14,17 @@ const Footer = () => {
     <div className={showCart ? "no-display-element" : "footer-container"}>
       <div className="icons">
         <Link href="https://flowerheads-ecom-app.vercel.app">
-          <a target="_blank">
+          <a target="_self">
             <PiInstagramLogoLight />
           </a>
         </Link>
         <Link href="https://flowerheads-ecom-app.vercel.app">
-          <a target="_blank">
+          <a target="_self">
             <PiFacebookLogoLight />
           </a>
         </Link>
         <Link href="https://flowerheads-ecom-app.vercel.app">
-          <a target="_blank">
+          <a target="_self">
             <PiTiktokLogoLight />
           </a>
         </Link>
