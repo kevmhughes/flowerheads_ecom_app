@@ -7,7 +7,8 @@ import { useStateContext } from "../context/StateContext";
 
 //children below refers to the props of the active current component
 const Layout = ({ children }) => {
-  // get from local storage
+  
+  /* // get from local storage
   const { setCartItems, setTotalQuantities, setTotalPrice } = useStateContext();
   useEffect(() => {
     // get cart items
@@ -20,7 +21,7 @@ const Layout = ({ children }) => {
     // get total price
     const totalPrice = localStorage.getItem("price");
     totalPrice && setTotalPrice(parseInt(totalPrice));
-  }, []);
+  }, []); */
 
   return (
     <div className="layout">
