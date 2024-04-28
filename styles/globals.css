@@ -841,6 +841,8 @@ span.text-red {
   }
   .cart-wrapper {
     right: unset;
+    height: 100%;
+    background-color: white;
   }
   .mobile-view-navbar-container {
     display: flex;
@@ -960,6 +962,7 @@ span.text-red {
   .cart-container {
     width: 105%;
     padding: 4px;
+    height: 100%;
   }
   .cart-heading {
     margin-top: 35px;
