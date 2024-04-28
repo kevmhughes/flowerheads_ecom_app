@@ -840,7 +840,6 @@ span.text-red {
     margin: 0 40px 0 20px;
   }
   .cart-wrapper {
-    right: unset;
     height: 100%;
     background-color: white;
     width: 100%;
