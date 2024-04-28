@@ -533,7 +533,7 @@ span.text-red {
 
 .product-detail-image {
   border-radius: 5px;
-  background-color:#fbf0f3a6;
+  background-color:white;
   height: 450px;
   width: 450px;
   object-fit: scale-down;
@@ -788,9 +788,6 @@ span.text-red {
   }
   .product-card:hover {
     transform: none
-  }
-  .product-detail-image {
-    background-color: white;
   }
   .collections-mobile-view-wrapper {
     position: relative;
