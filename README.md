@@ -20,11 +20,11 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 
 ## Mobile:
 
-<img src="readme-images/mobile1.png" />
-<img src="readme-images/mobile2.png" />
-<img src="readme-images/mobile3.png" />
+<img src="readme-images/mobile1.png" width="250"/>
+<img src="readme-images/mobile2.png" width="250"/>
+<img src="readme-images/mobile3.png" width="250"/>
 <br>
-<img src="readme-images/mobile4.png" />
+<img src="readme-images/mobile4.png" width="250"/>
 
 # Tools Used
 
