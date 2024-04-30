@@ -68,7 +68,7 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 ### Content Management System (CMS)
 * Sanity
 
-### Hosting (free)
+### Hosting 
 * Vercel
 
 # Features
