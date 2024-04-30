@@ -41,6 +41,9 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 <kbd>
 <img src="readme-images/mobile4.png" width="250"/>
 </kbd>
+<kbd>
+<img src="readme-images/mobile6.png" width="250"/>
+</kbd>
 
 # Tools Used
 
