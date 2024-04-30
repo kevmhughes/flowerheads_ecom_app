@@ -50,7 +50,7 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 </kbd>
 
 ## Sanity Headless CMS:
-#### Stakeholders can manage the products via Sanity Studio
+#### Products can be added, edited and removed via Sanity Studio
 <img src="readme-images/sanity1.png" />
 
 # Tools Used
