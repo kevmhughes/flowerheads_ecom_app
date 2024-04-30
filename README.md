@@ -11,11 +11,15 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 # Take a Look at the App
 
 ## Desktop:
-
+#### Browse and filter through the products:
 <img src="readme-images/desktop_2.png" />
+
 <br>
+#### Add products to & remove products from the cart:
 <img src="readme-images/desktop_3.png" />
+
 <br>
+#### Pay securely using stripe:
 <img src="readme-images/desktop_4.png" />
 
 ## Mobile:
