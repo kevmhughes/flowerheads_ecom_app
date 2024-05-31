@@ -1,6 +1,6 @@
 # Flower Heads 
 
-#### Flower Heads is a fully responsive and modern full stack e-commerce application built with React, Next.JS, Stripe & Sanity
+#### Flower Heads is a fully responsive and modern full stack e-commerce application built with React, Next.js, Stripe & Sanity
 
 Use the app [here](https://flowerheads-ecom-app.vercel.app)
 
@@ -48,6 +48,10 @@ Flower Heads is a fully responsive and modern full stack app with all the functi
 <kbd>
 <img src="readme-images/mobile6.png" width="250"/>
 </kbd>
+
+## Sanity (Headless CMS):
+#### Products can be added, edited and removed via Sanity Studio
+<img src="readme-images/sanity1.png" />
 
 # Tools Used
 
