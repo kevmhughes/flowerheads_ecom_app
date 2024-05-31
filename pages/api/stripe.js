@@ -17,7 +17,7 @@ export default async function handler(req, res) {
         ],
         custom_text: {
           submit: {
-            message: "**For testing purposes, fill the card information fields using a series of the numbers 4 and 2.** (eg. 4242 4242 4242 4242)"
+            message: "**For testing purposes: fill in the card number field using a series of the numbers 4 and 2.** (eg. 4242 4242 4242 4242)"
           }
         },
         line_items: req.body.map((item) => {
